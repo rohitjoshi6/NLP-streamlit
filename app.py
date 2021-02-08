@@ -29,7 +29,7 @@ def text_analyzer(my_text):
     nlp = spacy.load("en_core_web_sm")
     docx = nlp(my_text)
 
-    allData = ['"Token :" {} , \n Lemma : {}'.format(token.text , token.lemma) for token in docx]
+    allData = ['"Token :" {} , \n Lemma : {}'.format(token.text , token.lemma_) for token in docx]
     return allData
    
 

@@ -44,7 +44,7 @@ def entity_analyzer(my_text):
 
 
 def main():
-    st.title("NLP with Streamlit")
+    st.title("NLP")
 
     #Tokenization
     if st.checkbox("Show Token and Lemma"):

@@ -1,5 +1,5 @@
 # NLP-streamlit
-
+- Testing
 ## This is a beginners level python programming for introduction in Spacy.
 ## -It includes basic functionalizes like tokenizing texts and returning their lemma.
 ## - Returning Named Entites
